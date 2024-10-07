@@ -11,9 +11,9 @@ const Todocontainer=()=>{
     return(
         <div className='bg-slate-50 w-56 rounded-3xl p-6'>
             <Header/>
-            <Todoitem/>
-            <Todoitem/>
-            <Todoitem/>
+            <Todoitem text="eat"/>
+            <Todoitem text="code"/>
+            <Todoitem text="sleep"/>
             <Button/>
         </div>
     );
